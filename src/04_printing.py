@@ -12,11 +12,11 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 print("this will return (x is 10)...hopefully!")
-printf("x is %d", x)
+print("x is %d" % x)
 print("this will return (y is 2.24552)...hopefully!")
-print(f'y is {y}')
+print("y is %.2f" % y)
 print("this will return (z is I like turtles!)...hopefully")
-print(f'z is {z}')
+print("z is %s" % z)
 
 print("YAY it worked!!!!")
 # Use the 'format' string method to print the same thing
